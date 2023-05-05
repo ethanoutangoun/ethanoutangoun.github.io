@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Generic - Solid State by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/modeling.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Ethan Outangoun</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>3D Modeling</h2>
+				
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+                                    <h3 class="major">My Reel</h3>
+									<p>Use the arrows below to navigate different slides! All these images were produced using Blender.</p>
+                                   
+
+									<section class="slideshow">
+                                        <div class="display-container">
+                                            <span class="image fit"><img class="mySlides" src="images/room.jpg" alt=""></span>
+                                            <span class="image fit"><img class="mySlides" src="images/trombone.jpg" alt=""></span>
+                                            <span class="image fit"><img class="mySlides" src="images/pinkgun.png" alt=""></span>
+                                            <span class="image fit"><img class="mySlides" src="images/building.png" alt=""></span>
+                                         
+                                              
+                                            
+                    
+                                            
+                                            <button class="slide-button-left" onclick="plusDivs(-1)">❮</button>
+                                            <button class="slide-button-right" onclick="plusDivs(1)">❯</button>
+                                             
+                                       
+                                           
+                                            
+                                            
+                                           
+                                        </div>
+                                          
+                                          <script>
+                                          var slideIndex = 1;
+                                          showDivs(slideIndex);
+                                          
+                                          function plusDivs(n) {
+                                            showDivs(slideIndex += n);
+                                          }
+                                          
+                                          function showDivs(n) {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides");
+                                            if (n > x.length) {slideIndex = 1}
+                                            if (n < 1) {slideIndex = x.length}
+                                            for (i = 0; i < x.length; i++) {
+                                              x[i].style.display = "none";  
+                                            }
+                                            x[slideIndex-1].style.display = "block";  
+                                          }
+                                          </script>
+                                    </section>
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Contact Me</h2>
+
+							
+                            <ul class="contact">
+								
+								<li class="icon solid fa-phone">(510) 366-9197</li>
+								<li class="icon solid fa-envelope"><a href="#">ethanoutangoun@gmail.com</a></li>
+								<li href="https://github.com/ethanoutangoun" class="icon brands fa-github"><span class="label">Github</span><a href="https://github.com/ethanoutangoun" target="_blank">github.com/ethanoutangoun</a></li>
+                                <li class="icon solid fa-home">
+									San Francisco, CA<br />
+									
+								</li>
+								
+							</ul>
+						
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
