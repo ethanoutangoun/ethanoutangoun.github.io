@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+        <script>
+            //prevents page from scrolling up or down when using the arrow keys
+            document.addEventListener("keydown", function(event) {
+                if(["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].indexOf(event.code) > -1) {
+                    event.preventDefault();
+                }
+            }, false);
+        </script>
+		<title>Ethan Outangoun</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Ethan Outangoun</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Game Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+                                <style>
+                                    canvas {
+                                        display: block;
+                                        margin: auto;
+                                    }
+                                </style>
+								<h2>Penguin Game</h2>
+								<p>Arrow keys to move!</p>
+							</div>
+						</header>
+
+                        <section class="penguin-game-container">
+    
+
+  
+                            <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+                            <script language="javascript" type="text/javascript" src="penguin.js"></script>
+                            
+                        </section>
+                      
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
