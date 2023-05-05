@@ -1,7 +1,7 @@
 
 #wrapper > header {
  
-        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/building.png");
+        background-image: linear-gradient(to top, rgba(192, 192, 192, 0.8), rgba(91, 94, 112, 0.8)), url("../../images/building.png");
         background-size: auto,cover;
 			background-position: center,
  0% 30%;
